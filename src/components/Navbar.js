@@ -1,35 +1,34 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Style from './Navbar.module.scss';
 import Toggler from "./home/Toggler";
-import { useLocation } from "react-router-dom";
 import { HashLink as Link } from 'react-router-hash-link';
 import { Box } from "@mui/material";
 import { info } from "../info/Info";
 import { singlePage } from '../info/Info';
 
 const links = [
-    {
-        name: 'Home',
-        to: '',
-        active: 'home'
-    },
-    {
-        name: 'About Me',
-        to: 'about',
-        active: 'about'
-    },
-    {
-        name: info.initials,
-        type: 'initials',
-        to: '',
-        active: 'home'
-    },
-    {
-        name: 'Portfolio',
-        to: 'portfolio',
-        active: 'portfolio'
-    }
-]
+  {
+    name: "accueil",
+    to: "",
+    active: "accueil",
+  },
+  {
+    name: "à propos",
+    to: "about",
+    active: "à propos",
+  },
+  {
+    name: info.initials,
+    type: "initials",
+    to: "",
+    active: "accueil",
+  },
+  {
+    name: "Portfolio",
+    to: "portfolio",
+    active: "portfolio",
+  },
+];
 
 // This function is used to create a scroll offset to compensate for the navbar
 // when you click on the nav buttons to scroll down.
