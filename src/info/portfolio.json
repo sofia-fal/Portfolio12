@@ -18,7 +18,7 @@
     },
     {
       "id": 3,
-      "image": "https://via.placeholder.com/300x200.png?text=Project+3",
+      "image": "/img/sophie.webp",
       "source": "https://github.com/sofia-fal/Portfolio-architecte-sophie-bluel",
       "title": "Portfolio de l'architecte Sophie Bluel",
       "description": "Développement d'un portfolio dynamique pour présenter et ajouter des projets grâce à un moyen de connexion",
@@ -34,7 +34,7 @@
     },
     {
       "id": 5,
-      "image": "https://via.placeholder.com/300x200.png?text=Project+5",
+      "image": "/img/argentbank.webp",
       "source": "https://github.com/sofia-fal/ArgentBank",
       "title": "ArgentBank",
       "description": "Développement d'une application bancaire et gestion de ces données",
