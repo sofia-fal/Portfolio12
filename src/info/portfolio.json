@@ -1,0 +1,44 @@
+{
+  "portfolio": [
+    {
+      "id": 1,
+      "image": "https://via.placeholder.com/300x200.png?text=Project+1",
+      "source": "https://github.com/username/project1",
+      "title": "Project 1",
+      "description": "Développement d'une application web de gestion de tâches avec une interface utilisateur intuitive.",
+      "skills": ["React", "CSS", "JavaScript", "Material-UI"]
+    },
+    {
+      "id": 2,
+      "image": "https://via.placeholder.com/300x200.png?text=Project+2",
+      "source": "https://github.com/username/project2",
+      "title": "Project 2",
+      "description": "Création d'une plateforme de blog permettant aux utilisateurs de publier et de commenter des articles.",
+      "skills": ["Node.js", "Express", "MongoDB", "Bootstrap"]
+    },
+    {
+      "id": 3,
+      "image": "https://via.placeholder.com/300x200.png?text=Project+3",
+      "source": "https://github.com/username/project3",
+      "title": "Project 3",
+      "description": "Développement d'un portfolio interactif pour présenter mes projets et compétences.",
+      "skills": ["HTML", "SCSS", "JavaScript", "Animations CSS"]
+    },
+    {
+      "id": 4,
+      "image": "https://via.placeholder.com/300x200.png?text=Project+4",
+      "source": "https://github.com/username/project4",
+      "title": "Project 4",
+      "description": "Mise en place d'un système de gestion des stocks pour un magasin avec suivi en temps réel.",
+      "skills": ["Python", "Flask", "SQLite", "Chart.js"]
+    },
+    {
+      "id": 5,
+      "image": "https://via.placeholder.com/300x200.png?text=Project+5",
+      "source": "https://github.com/username/project5",
+      "title": "Project 5",
+      "description": "Création d'une application mobile pour suivre les habitudes alimentaires et les activités sportives.",
+      "skills": ["React Native", "Firebase", "Expo", "API REST"]
+    }
+  ]
+}

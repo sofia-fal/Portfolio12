@@ -7,28 +7,28 @@ import { info } from "../info/Info";
 import { singlePage } from '../info/Info';
 
 const links = [
-  {
-    name: "accueil",
-    to: "",
-    active: "accueil",
-  },
-  {
-    name: "à propos",
-    to: "about",
-    active: "à propos",
-  },
-  {
-    name: info.initials,
-    type: "initials",
-    to: "",
-    active: "accueil",
-  },
-  {
-    name: "Portfolio",
-    to: "portfolio",
-    active: "portfolio",
-  },
-];
+    {
+        name: 'Home',
+        to: '',
+        active: 'home'
+    },
+    {
+        name: 'About Me',
+        to: 'about',
+        active: 'about'
+    },
+    {
+        name: info.initials,
+        type: 'initials',
+        to: '',
+        active: 'home'
+    },
+    {
+        name: 'Portfolio',
+        to: 'portfolio',
+        active: 'portfolio'
+    }
+]
 
 // This function is used to create a scroll offset to compensate for the navbar
 // when you click on the nav buttons to scroll down.

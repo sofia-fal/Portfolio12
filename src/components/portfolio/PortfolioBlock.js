@@ -1,24 +1,60 @@
-import React from 'react';
-import IconLink from "./IconLink";
-import {Box} from "@mui/material";
+import React from "react";
+import { Box, Typography, Chip } from "@mui/material";
 
-function PortfolioBlock(props) {
-   const {image, live, source, title} = props;
-   return (
-      <Box display={'flex'} flexDirection={'column'} justifyContent={'center'} alignItems={'center'}>
-         <Box component={'img'} src={image} alt={'mockup'}/>
-         <h1 style={{fontSize: '2rem'}}>{title}</h1>
-         <Box className={'portfolio'} display={'flex'} flexDirection={'column'} gap={'0.5rem'}
-              alignItems={'center'} fontSize={'1.5rem'} py={'2rem'}>
-            <Box p={1} border={'2px solid black'} borderRadius={'25px'}>
-               <IconLink link={live} title={'Live Demo'} icon={'fa fa-safari'}/>
-            </Box>
-            <Box p={1} border={'2px solid black'} borderRadius={'25px'}>
-               <IconLink link={source} title={'Source Code'} icon={'fa fa-code'}/>
-            </Box>
-         </Box>
+export default function PortfolioBlock({
+  image,
+  source,
+  title,
+  description,
+  skills,
+}) {
+  return (
+    <Box
+      display='flex'
+      flexDirection='column'
+      alignItems='center'
+      textAlign='center'
+      p={2} // Ajoute du padding
+      borderRadius={2} // Coins arrondis
+      boxShadow={3} // Ombre légère
+      sx={{
+        backgroundColor: "#fff",
+        "&:hover": { boxShadow: 6 }, // Ombre plus marquée au survol
+      }}
+    >
+      <Box
+        component='img'
+        src={image}
+        alt={title}
+        sx={{
+          width: "100%",
+          maxWidth: "300px", // Limite la taille de l'image
+          borderRadius: "8px",
+          mb: 2, // Espace sous l'image
+        }}
+      />
+      <Typography variant='h6' mt={2}>
+        {title}
+      </Typography>
+      <Typography variant='body2' color='textSecondary' mt={1}>
+        {description}
+      </Typography>
+      <Box
+        mt={2}
+        display='flex'
+        gap={1}
+        flexWrap='wrap'
+        justifyContent='center'
+      >
+        {skills.map((skill, index) => (
+          <Chip key={index} label={skill} variant='outlined' />
+        ))}
       </Box>
-   );
+      <Box mt={2}>
+        <a href={source} target='_blank' rel='noopener noreferrer'>
+          Voir le code source
+        </a>
+      </Box>
+    </Box>
+  );
 }
-
-export default PortfolioBlock;

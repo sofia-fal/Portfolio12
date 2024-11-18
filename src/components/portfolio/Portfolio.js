@@ -2,31 +2,31 @@ import React from "react";
 import PortfolioBlock from "./PortfolioBlock";
 import Masonry from "react-masonry-css";
 import { Box } from "@mui/material";
-import { info } from "../../info/Info";
+import portfolio from "../../info/portfolio.json"; // Import du fichier JSON
 import "./Portfolio.scss";
-
 
 export default function Portfolio({ innerRef }) {
   const breakpointColumnsObj = {
-    default: 3, // Nombre de colonnes par défaut
-    1100: 2, // Pour les écrans <= 1100px
-    700: 1, // Pour les écrans <= 700px
+    default: 3,
+    1100: 2,
+    700: 1,
   };
 
   return (
     <Box id={"portfolio"} ref={innerRef}>
       <Masonry
         breakpointCols={breakpointColumnsObj}
-        className='masonry-grid' // Classe pour styliser Masonry
-        columnClassName='masonry-grid_column' // Classe pour les colonnes
+        className='masonry-grid'
+        columnClassName='masonry-grid_column'
       >
-        {info.portfolio.map((project, index) => (
+        {portfolio.portfolio.map((project, index) => (
           <PortfolioBlock
-            key={index}
+            key={project.id}
             image={project.image}
-            live={project.live}
             source={project.source}
             title={project.title}
+            description={project.description} // Nouvelle propriété
+            skills={project.skills} // Nouvelle propriété
           />
         ))}
       </Masonry>
