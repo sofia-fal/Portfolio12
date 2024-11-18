@@ -2,7 +2,7 @@ import React from "react";
 import PortfolioBlock from "./PortfolioBlock";
 import Masonry from "react-masonry-css";
 import { Box } from "@mui/material";
-import portfolio from "../../info/portfolio.json"; // Import du fichier JSON
+import portfolio from "../../info/portfolio.json";
 import "./Portfolio.scss";
 
 export default function Portfolio({ innerRef }) {
@@ -25,8 +25,8 @@ export default function Portfolio({ innerRef }) {
             image={project.image}
             source={project.source}
             title={project.title}
-            description={project.description} // Nouvelle propriété
-            skills={project.skills} // Nouvelle propriété
+            description={project.description}
+            skills={project.skills}
           />
         ))}
       </Masonry>
