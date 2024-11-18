@@ -5,15 +5,15 @@
       "image": "/img/booki.webp",
       "source": "https://github.com/sofia-fal/Booki",
       "title": "Booki",
-      "description": "Desc",
+      "description": "Création de la page d'accueil d'une agence de voyage",
       "skills": ["HTML", "CSS"]
     },
     {
       "id": 2,
       "image": "/img/ohmyfood.webp",
       "source": "https://github.com/sofia-fal/Ohmyfood",
-      "title": "Ohmyfood",
-      "description": "Création d'une plateforme de blog permettant aux utilisateurs de publier et de commenter des articles.",
+      "title": "OhMyFood",
+      "description": "Développement d'un site de restauration mobile-first en Sass avec intégration d'animations",
       "skills": ["SCSS", "Animations CSS"]
     },
     {
@@ -21,7 +21,7 @@
       "image": "https://via.placeholder.com/300x200.png?text=Project+3",
       "source": "https://github.com/sofia-fal/Portfolio-architecte-sophie-bluel",
       "title": "Portfolio de l'architecte Sophie Bluel",
-      "description": "Développement d'un portfolio interactif pour présenter mes projets et compétences.",
+      "description": "Développement d'un portfolio dynamique pour présenter et ajouter des projets grâce à un moyen de connexion",
       "skills": ["JS"]
     },
     {
@@ -29,7 +29,7 @@
       "image": "/img/kasa.webp",
       "source": "https://github.com/sofia-fal/Kasa",
       "title": "Kasa",
-      "description": "Mise en place d'un système de gestion des stocks pour un magasin avec suivi en temps réel.",
+      "description": "Création d'une application React de location immobilière",
       "skills": ["React", "React Router", "JSON"]
     },
     {
@@ -37,7 +37,7 @@
       "image": "https://via.placeholder.com/300x200.png?text=Project+5",
       "source": "https://github.com/sofia-fal/ArgentBank",
       "title": "ArgentBank",
-      "description": "Création d'une application mobile pour suivre les habitudes alimentaires et les activités sportives.",
+      "description": "Développement d'une application bancaire et gestion de ces données",
       "skills": ["React Redux", "MongoDB", "API REST"]
     }
   ]

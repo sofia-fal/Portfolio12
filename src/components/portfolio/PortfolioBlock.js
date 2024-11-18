@@ -14,13 +14,7 @@ export default function PortfolioBlock({
       flexDirection='column'
       alignItems='center'
       textAlign='center'
-      p={2} // Ajoute du padding
-      borderRadius={2} // Coins arrondis
-      boxShadow={3} // Ombre légère
-      sx={{
-        backgroundColor: "#fff",
-        "&:hover": { boxShadow: 6 }, // Ombre plus marquée au survol
-      }}
+      p={2} // Padding global
     >
       <Box
         component='img'
@@ -29,7 +23,7 @@ export default function PortfolioBlock({
         sx={{
           width: "100%",
           maxWidth: "300px", // Limite la taille de l'image
-          borderRadius: "8px",
+          borderRadius: "8px", // Coins légèrement arrondis
           mb: 2, // Espace sous l'image
         }}
       />
