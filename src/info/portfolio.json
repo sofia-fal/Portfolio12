@@ -6,7 +6,8 @@
       "source": "https://github.com/sofia-fal/Booki",
       "title": "Booki",
       "description": "Création de la page d'accueil d'une agence de voyage",
-      "skills": ["HTML", "CSS"]
+      "skills": ["HTML", "CSS"],
+      "details": "Grâce à ce projet, j'ai pu approfondir mes connaissances en HTML et CSS. J'ai intégré la maquette fournie en respectant les spécifications tout en prenant en compte la responsive."
     },
     {
       "id": 2,
@@ -14,7 +15,8 @@
       "source": "https://github.com/sofia-fal/Ohmyfood",
       "title": "OhMyFood",
       "description": "Développement d'un site de restauration mobile-first en Sass avec intégration d'animations",
-      "skills": ["SCSS", "Animations CSS"]
+      "skills": ["SCSS", "Animations CSS"],
+      "details": "Durant ce projet, j'ai adopté une approche mobile-first, ce qui m'a permis de développer de manière plus pertinente et rapide tout en assurant une excellente responsive. J'ai également découvert le préprocesseur Sass, qui m'a aidé à structurer le style de façon moins redondante. Par ailleurs, j'ai intégré des animations pour rendre l'expérience utilisateur plus captivante."
     },
     {
       "id": 3,
@@ -22,7 +24,8 @@
       "source": "https://github.com/sofia-fal/Portfolio-architecte-sophie-bluel",
       "title": "Portfolio de l'architecte Sophie Bluel",
       "description": "Développement d'un portfolio dynamique pour présenter et ajouter des projets grâce à un moyen de connexion",
-      "skills": ["JS"]
+      "skills": ["JS"],
+      "details": "Ce projet m'a permis d'explorer davantage les possibilités offertes par JavaScript. Mon objectif étant de transformer un site statique en site dynamique, j'ai intégré des fonctionnalités telles que la connexion, ainsi que l'ajout et la suppression de travaux une fois connecté, en utilisant des APIs."
     },
     {
       "id": 4,
@@ -30,7 +33,8 @@
       "source": "https://github.com/sofia-fal/Kasa",
       "title": "Kasa",
       "description": "Création d'une application React de location immobilière",
-      "skills": ["React", "React Router", "JSON"]
+      "skills": ["React", "React Router", "JSON"],
+      "details": "Dans ce projet, j'ai développé une SPA en utilisant React et son Router. J'ai appris à manipuler React pour créer un site web optimisé, en réduisant le superflu grâce aux composants réutilisables, ce qui a rendu la phase de développement rapide et fluide. J'ai également appris à gérer les données en créant et utilisant des fichiers JSON."
     },
     {
       "id": 5,
@@ -38,7 +42,8 @@
       "source": "https://github.com/sofia-fal/ArgentBank",
       "title": "ArgentBank",
       "description": "Développement d'une application bancaire et gestion de ces données",
-      "skills": ["React Redux", "MongoDB", "API REST"]
+      "skills": ["React Redux", "MongoDB", "API REST"],
+      "details": "Pendant la réalisation de ce projet, j'ai pris en main Redux, qui m'a permis de gérer l'état global de l'application tout en évitant le props drilling. J'ai implémenté un système de connexion en utilisant les APIs et les données d'utilisateurs fournies. Une fois authentifié, l'utilisateur peut modifier son pseudonyme. Redux a rendu l'exécution de ces fonctionnalités simple et efficace. Par ailleurs, en phase 2, j'ai conçu une API REST pour la gestion des transactions et documenté son utilisation avec Swagger."
     }
   ]
 }

@@ -27,6 +27,7 @@ export default function Portfolio({ innerRef }) {
             title={project.title}
             description={project.description}
             skills={project.skills}
+            details={project.details}
           />
         ))}
       </Masonry>

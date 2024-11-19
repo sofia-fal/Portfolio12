@@ -1,4 +1,4 @@
-import self from "../assets/self.png"
+import self from "../assets/self.webp"
 
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
