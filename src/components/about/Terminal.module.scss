@@ -1,5 +1,21 @@
 @import "../../variables.modules";
 
+.command {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: $white;
+  font-size: 1.5rem; /* Taille ajustée pour ressembler à un titre */
+}
+
+.green {
+  color: #00ff00;
+}
+
+.skills {
+  list-style-type: none;
+  padding: 0;
+}
+
 i {
   padding-left: 0.5rem;
 

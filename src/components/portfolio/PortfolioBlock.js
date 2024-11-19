@@ -3,50 +3,55 @@ import { Box, Typography, Chip } from "@mui/material";
 
 export default function PortfolioBlock({
   image,
+  altText,
   source,
   title,
   description,
   skills,
-  details, // Nouveau prop pour les détails supplémentaires
+  details,
 }) {
   return (
     <Box
-      position='relative' // Position relative pour gérer les éléments absolus (overlay)
+      position='relative'
       sx={{
         "&:hover .overlay": {
-          opacity: 1, // Rendre l'overlay visible au survol
+          opacity: 1,
         },
       }}
     >
-      {/* Image et contenu de la grille */}
+      {/* Contenu principal */}
       <Box
         display='flex'
         flexDirection='column'
         alignItems='center'
         textAlign='center'
-        p={2} // Padding global
+        p={2}
       >
         <Box
           component='img'
           src={image}
-          alt={title}
+          alt={altText}
           sx={{
             width: "100%",
-            maxWidth: "300px", // Limite la taille de l'image
-            borderRadius: "8px", // Coins légèrement arrondis
-            mb: 2, // Espace sous l'image
+            maxWidth: "300px",
+            borderRadius: "8px",
+            mb: 2,
           }}
         />
-        <Typography variant='h6' mt={2}>
+        <Typography
+          variant='h6' // Style visuel
+          component='h3' // Balise HTML utilisée dans le DOM
+          mt={2}
+        >
           {title}
         </Typography>
         <Box
           mt={1}
           p={2}
           sx={{
-            backgroundColor: "#fff", // Fond blanc pour la description
-            borderRadius: "8px", // Coins arrondis
-            boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)", // Ombre légère
+            backgroundColor: "#fff",
+            borderRadius: "8px",
+            boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
           }}
         >
           <Typography variant='body2' color='textSecondary'>
@@ -60,10 +65,10 @@ export default function PortfolioBlock({
           flexWrap='wrap'
           justifyContent='center'
           sx={{
-            backgroundColor: "#fff", // Fond blanc pour les skills
-            borderRadius: "8px", // Coins arrondis
-            p: 1, // Padding interne
-            boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)", // Ombre légère
+            backgroundColor: "#fff",
+            borderRadius: "8px",
+            p: 1,
+            boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
           }}
         >
           {skills.map((skill, index) => (
@@ -80,21 +85,21 @@ export default function PortfolioBlock({
         left={0}
         width='100%'
         height='100%'
-        bgcolor='rgba(0, 0, 0, 0.9)' // Fond légèrement transparent
+        bgcolor='rgba(0, 0, 0, 0.9)'
         display='flex'
         flexDirection='column'
         alignItems='center'
         justifyContent='center'
         textAlign='center'
         sx={{
-          opacity: 0, // Caché par défaut
-          transition: "opacity 0.3s ease-in-out", // Transition fluide
-          color: "#fff", // Texte blanc
-          borderRadius: "8px", // Coins arrondis pour suivre l'image
+          opacity: 0,
+          transition: "opacity 0.3s ease-in-out",
+          color: "#fff",
+          borderRadius: "8px",
         }}
       >
         <Typography variant='body1' p={2}>
-          {details} {/* Texte détaillant le projet */}
+          {details}
         </Typography>
         <Box mt={2}>
           <a
@@ -102,9 +107,9 @@ export default function PortfolioBlock({
             target='_blank'
             rel='noopener noreferrer'
             style={{
-              color: "#fff", // Texte blanc
-              textDecoration: "underline", // Lien souligné
-              fontWeight: "bold", // Texte en gras
+              color: "#fff",
+              textDecoration: "underline",
+              fontWeight: "bold",
             }}
           >
             Voir le code source

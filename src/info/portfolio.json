@@ -3,6 +3,7 @@
     {
       "id": 1,
       "image": "/img/booki.webp",
+      "altText": "Capture d'écran de la page d'accueil de Booki, une agence de voyage.",
       "source": "https://github.com/sofia-fal/Booki",
       "title": "Booki",
       "description": "Création de la page d'accueil d'une agence de voyage",
@@ -12,6 +13,7 @@
     {
       "id": 2,
       "image": "/img/ohmyfood.webp",
+      "altText": "Capture d'écran du site OhMyFood montrant des animations sur un menu de restaurant.",
       "source": "https://github.com/sofia-fal/Ohmyfood",
       "title": "OhMyFood",
       "description": "Développement d'un site de restauration mobile-first en Sass avec intégration d'animations",
@@ -21,6 +23,7 @@
     {
       "id": 3,
       "image": "/img/sophie.webp",
+      "altText": "Aperçu du portfolio de l'architecte Sophie Bluel, avec des projets dynamiques.",
       "source": "https://github.com/sofia-fal/Portfolio-architecte-sophie-bluel",
       "title": "Portfolio de l'architecte Sophie Bluel",
       "description": "Développement d'un portfolio dynamique pour présenter et ajouter des projets grâce à un moyen de connexion",
@@ -30,6 +33,7 @@
     {
       "id": 4,
       "image": "/img/kasa.webp",
+      "altText": "Interface utilisateur de Kasa, une application React pour la location immobilière.",
       "source": "https://github.com/sofia-fal/Kasa",
       "title": "Kasa",
       "description": "Création d'une application React de location immobilière",
@@ -39,6 +43,7 @@
     {
       "id": 5,
       "image": "/img/argentbank.webp",
+      "altText": "Interface de gestion bancaire ArgentBank montrant les transactions et les options de connexion.",
       "source": "https://github.com/sofia-fal/ArgentBank",
       "title": "ArgentBank",
       "description": "Développement d'une application bancaire et gestion de ces données",

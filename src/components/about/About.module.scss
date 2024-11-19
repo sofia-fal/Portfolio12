@@ -19,3 +19,42 @@
     line-height: 1.75;
   }
 }
+
+h2, h3 {
+  color: rgb(97, 181, 255);
+  font-size: 1.5rem; // Taille par défaut pour les grands écrans
+  font-weight: 100;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 1.2rem; // Taille réduite pour les écrans moyens
+  }
+
+  @media only screen and (max-width: 480px) {
+    font-size: 1rem; // Taille encore plus réduite pour les petits écrans
+  }
+}
+
+p {
+  font-size: 1.2rem; // Taille par défaut pour le paragraphe
+  line-height: 1.5;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 0.9rem; // Taille réduite pour les écrans moyens
+  }
+
+  @media only screen and (max-width: 480px) {
+    font-size: 0.8rem; // Taille encore plus réduite pour les petits écrans
+  }
+}
+
+ul {
+  font-size: 1rem; // Taille par défaut des listes
+
+  @media only screen and (max-width: 768px) {
+    font-size: 0.9rem; // Taille réduite pour les écrans moyens
+  }
+
+  @media only screen and (max-width: 480px) {
+    font-size: 0.8rem; // Taille encore plus réduite pour les petits écrans
+  }
+}

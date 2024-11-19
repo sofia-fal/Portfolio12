@@ -1,4 +1,3 @@
-import self from "../assets/self.webp"
 import cv from "../assets/CV_Fal_2024.pdf";
 
 
@@ -28,7 +27,6 @@ export const info = {
   lastName: "Fal",
   initials: "sf", // the example uses first and last, but feel free to use three or more if you like.
   position: "Développeur web front-end",
-  selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
   gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
   baseColor: colors[0],
   miniBio: [
