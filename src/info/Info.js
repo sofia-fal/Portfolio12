@@ -1,4 +1,5 @@
 import self from "../assets/self.webp"
+import cv from "../assets/CV_Fal_2024.pdf";
 
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
@@ -48,7 +49,7 @@ export const info = {
       label: "github",
     },
     {
-      link: "https://github.com/sofia-fal",
+      link: cv,
       icon: "fa fa-file",
       label: "cv",
     },
