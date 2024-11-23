@@ -4,25 +4,37 @@ import { Helmet } from "react-helmet-async";
 const SEO = () => {
   const schemaData = {
     "@context": "https://schema.org",
-    "@type": "WebPage",
-    name: "Sofia Fal - Développeur Web à Toulouse",
+    "@type": "Person",
+    name: "Sofia Fal",
     description:
-      "Portfolio de Sofia Fal, développeur web front-end spécialisé en HTML, CSS, JavaScript, et React avec 6 ans d'expérience.",
+      "Développeur web front-end spécialisé en HTML, CSS, JavaScript, et React avec 6 ans d'expérience.",
     url: "https://portfolio-sofiafal.vercel.app/",
-    creator: {
+    jobTitle: "Développeur Web",
+    worksFor: {
       "@type": "Organization",
-      name: "Sofia Fal",
+      name: "Freelance",
       url: "https://portfolio-sofiafal.vercel.app/",
-      contactPoint: {
-        "@type": "ContactPoint",
-        email: "sofia-fal@hotmail.com",
-        telephone: "+33-6-52-16-70-15",
-        contactType: "customer support",
-        areaServed: "FR",
-      },
-      sameAs: ["https://github.com/sofia-fal"],
     },
-    hasPart: {
+    contactPoint: {
+      "@type": "ContactPoint",
+      email: "sofia-fal@hotmail.com",
+      telephone: "+33-6-52-16-70-15",
+      contactType: "customer support",
+      areaServed: "FR",
+    },
+    sameAs: [
+      "https://github.com/sofia-fal",
+    ],
+    knowsAbout: [
+      "Développement web",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "SEO",
+      "Responsive Design",
+    ],
+    makesOffer: {
       "@type": "OfferCatalog",
       name: "Services proposés",
       itemListElement: [
