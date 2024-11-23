@@ -4,6 +4,7 @@ import EmojiBullet from "./EmojiBullet";
 import SocialIcon from "./SocialIcon";
 import { Box } from "@mui/material";
 import { info } from "../../info/Info";
+import SEO from "../SEO";
 
 export default function Home({ innerRef }) {
   return (
@@ -17,6 +18,7 @@ export default function Home({ innerRef }) {
       minHeight={"calc(100vh - 175px)"}
       id={"home"}
     >
+      <SEO />
       {/* Contenu principal */}
       <Box textAlign={"center"}>
         <h1>
