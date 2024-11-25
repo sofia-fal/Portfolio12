@@ -43,7 +43,6 @@ function skillsText() {
         </span>{" "}
         ls
       </h3>
-      {/* Solution 2: Utilisation de la balise h3 pour un titre structurel */}
       <h3>compétences</h3>
       <ul className={Style.skills}>
         {info.skills.proficientWith.map((proficiency, index) => (
